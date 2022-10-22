@@ -1,13 +1,11 @@
 {
   "Type" : "AWS::IAM::User",
   "Properties" : {
-      "Groups" : [ String, ... ],
-      "LoginProfile" : LoginProfile,
-      "ManagedPolicyArns" : [ String, ... ],
-      "Path" : String,
-      "PermissionsBoundary" : String,
-      "Policies" : [ Policy, ... ],
-      "Tags" : [ Tag, ... ],
-      "UserName" : String
+      "LoginProfile" : {
+        "Password" : "keo's@utoUs3r"
+      },
+      "Path" : "/",
+      "Policies" : [ Policy,],
+      "UserName" : "Keoagile@autoCreated"
     }
 }
