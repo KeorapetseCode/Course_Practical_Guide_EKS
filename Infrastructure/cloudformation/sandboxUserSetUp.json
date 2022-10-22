@@ -1,1 +1,13 @@
-
+{
+  "Type" : "AWS::IAM::User",
+  "Properties" : {
+      "Groups" : [ String, ... ],
+      "LoginProfile" : LoginProfile,
+      "ManagedPolicyArns" : [ String, ... ],
+      "Path" : String,
+      "PermissionsBoundary" : String,
+      "Policies" : [ Policy, ... ],
+      "Tags" : [ Tag, ... ],
+      "UserName" : String
+    }
+}
